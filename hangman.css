@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    font-family: Courier, monospace;
+}
+
+#buttons {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+#buttons  li {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding: 1% 0;
+    width: 9%;
+    margin: 1%;
+    border-radius: 10px;
+    background: rgb(131, 254, 241);
+}
+
+#word ul {
+    letter-spacing: 0.2em;
+    font-size: 1.8em;
+}
+
+ul {
+    list-style: none;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#guessesLeft {
+    font-weight: bold;
+}
+
+
+
+.clicked{
+    opacity: 0.1;
+}
+
+#endGame {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 175px;
+    padding: 25vh 0;
+}
+
+button {
+    width: 40%;
+    border: none;
+    font-size: 1.1em;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    font-family: courier, monospace;
+}
+
+button:focus {
+    outline:0;
+}
+
+.small {
+    font-size: 1em;
+}
+
+#resetGame {
+    background: lightcoral;
+    width: 30%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
